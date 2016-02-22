@@ -1,10 +1,14 @@
-<?php
-
-echo "hello";
-<<<<<<< HEAD
-echo "and goodbye";
-=======
-echo "and goodbye";
-
-Faraaz kan er echt niks van ;P
->>>>>>> fe250b56f485c14601ff4a484aea6705cb4b06c2
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Woordzoeker</title><br>
+    
+    <p> Van Fynn, Faraaz en Dylan </p>
+        
+    </head>
+    <style>
+        Body {
+background-image:url("achtergrond-woordzoeker.jpg");
+}
+</style>
+</html>
