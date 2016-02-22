@@ -3,7 +3,6 @@
     <head>
         <title>Woordzoeker</title><br>
     
-     Van Fynn, Faraaz en Dylan
         
     </head>
     <style>
