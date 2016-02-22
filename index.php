@@ -3,7 +3,7 @@
     <head>
         <title>Woordzoeker</title><br>
     
-    <p> Van Fynn, Faraaz en Dylan </p>
+     Van Fynn, Faraaz en Dylan
         
     </head>
     <style>
