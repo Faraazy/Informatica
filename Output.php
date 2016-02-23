@@ -20,7 +20,7 @@ if (!isset($_FILES['fileToUpload'])) {
 <?php
 include 'tabel.php';
 include 'splitsen.php';
-include 'horizontaal.php';
+include 'woordzoeker_horizontaal.php';
 
         $bestand = FILE($_FILES['fileToUpload']['tmp_name']);
   $wz = Array($bestand);
