@@ -8,41 +8,41 @@ define('puzzle_height', 15);
 
 $word_list = array(
 
-               'bergkat',
+               'etui',
 
-               'steenbok',
+               'fineliner',
 
-               'stekelvarken',
+               'schrift',
 
-               'everzwijn',
+               'rugtas',
 
-               'giraf',
+               'wekker',
 
-               'pauw',
+               'schoolbord',
 
-               'neushoorn',
+               'krijt',
 
-               'leeuw',
+               'potlood',
 
-               'zebra',
+               'kantine',
 
-               'antilope',
+               'schoolbel',
 
-               'panter',
+               'mediatheek',
 
-               'tijger',
+               'cijfer',
 
-               'hyena',
+               'rapport',
 
-               'olifant',
+               'lunch',
 
-               'kameel',
+               'leraar',
 
-               'papegaai',
+               'leerling',
 
-               'slang',
+               'toets',
 
-               'salamander'
+               'huiswerk'
 
 );
 
@@ -70,7 +70,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           font-family: Arial;           
+                                                           font-family: comic Sans MS;           
 
                                             }
 
@@ -80,7 +80,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           border: solid 1px black;
+                                                           border: solid 1px blue;
 
                                             }
 
@@ -90,7 +90,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           border: solid 1px black;
+                                                           border: solid 1px blue;
 
                                                            width: 25px;
 
@@ -142,7 +142,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           background-color: grey;
+                                                           background-color: blueviolet;
 
                                                            color: white;
 
