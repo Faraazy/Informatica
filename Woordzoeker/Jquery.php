@@ -53,4 +53,24 @@
                                             }
 
                               </script>
+                              
+                                    <fieldset>
+
+                                                                                                       <legend>Woordenlijst</legend>
+
+                                                                                                       <?php
+
+                                                                                                       foreach ($word_list as $word)
+
+                                                                                                       {
+
+                                                                                                                      $label_tag = '<label title="' . $word . '" onclick="highlightWord(\'' . $word . '\', true);" onmouseover="highlightWord(\'' . $word . '\', false);" onmouseout="highlightWord(\'\', false);">';
+
+                                                                                                                      echo $label_tag . $word . '</label>';
+
+                                                                                                       }
+
+                                                                                                       ?>
+
+                                                                                         </fieldset>
 
