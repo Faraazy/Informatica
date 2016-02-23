@@ -8,12 +8,12 @@ if (!isset($_FILES['fileToUpload'])) {
 ?>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="output.css">
+        <link rel="stylesheet" type="text/css" href="Achtergrond.css">
         <meta charset="UTF-8">
         <title></title>
     </head>
     
-    <div id="titel">Woordzoeker 1.0</div>    
+    <div id="titel">Woordzoeker</div>    
 
 
    
