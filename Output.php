@@ -21,6 +21,7 @@ if (!isset($_FILES['fileToUpload'])) {
 include 'tabel.php';
 include 'splitsen.php';
 include 'woordzoeker_horizontaal.php';
+include 'Minnetjes_Naar_Letters.php';
 
         $bestand = FILE($_FILES['fileToUpload']['tmp_name']);
   $wz = Array($bestand);
