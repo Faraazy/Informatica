@@ -56,7 +56,6 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
 ?>
 
- 
 
 <html>
 
@@ -69,6 +68,12 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 h1 {font-family: algerian;
 color: #5D5A5A;
 text-align: center;
+}
+
+h2 {font-family: Comic Sans MS;
+color: #46423B;
+font-size: 18px;
+text-align: left;
 }
 
                                             table, body
@@ -279,7 +284,7 @@ background-image:url("achtergrond-woordzoeker.jpg");
                                             }
 
                               </script>
-               <h1><legend>Woordzoeker</legend></h1>
+               <legend><h1>Woordzoeker</h1><h2>Dylan,Fynn & Faraaz</h2></legend>
 
                </head>
 
