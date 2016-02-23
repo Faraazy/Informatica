@@ -65,6 +65,11 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
                               <title>Puzzle</title>
 
                               <style>
+                                  
+h1 {font-family: algerian;
+color: #5D5A5A;
+text-align: center;
+}
 
                                             table, body
 
@@ -80,7 +85,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           border: solid 1px blue;
+                                                           border: solid 1px black;
 
                                             }
 
@@ -90,7 +95,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           border: solid 1px blue;
+                                                           border: solid 1px gray;
 
                                                            width: 25px;
 
@@ -132,7 +137,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           background-color: silver;
+                                                           background-color: gray;
 
                                             }
 
@@ -142,7 +147,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           background-color: blueviolet;
+                                                           background-color: darkgrey;
 
                                                            color: white;
 
@@ -154,7 +159,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
 
                                             {
 
-                                                           background-color: white;
+                                                           background-color: url("texture_backgrounds.jpg");
 
                                             }
 
@@ -211,8 +216,13 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
                                                            color: red;
 
                                             }
-
+Body {
+background-image:url("achtergrond-woordzoeker.jpg");
+}
+                                            
+                                          
                               </style>
+                              
 
                               <script>
 
@@ -269,6 +279,7 @@ if (isset($_REQUEST['PuzzleLevel'])) { $puzzle_level = $_REQUEST['PuzzleLevel'];
                                             }
 
                               </script>
+               <h1><legend>Woordzoeker</legend></h1>
 
                </head>
 
